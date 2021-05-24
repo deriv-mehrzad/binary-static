@@ -2089,9 +2089,11 @@ body .header {
     display: flex;
     width: auto; }
     body .header__menu-links a {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
       font-weight: normal;
       vertical-align: middle;
-      display: table-cell;
       height: 50px;
       max-width: 150px;
       text-decoration: none;
@@ -2116,9 +2118,6 @@ body .header {
       text-align: left;
       line-height: 1.75;
       position: relative;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
       height: 100%; }
       body .header__menu-links-item:hover {
         background: var(--state-hover); }
